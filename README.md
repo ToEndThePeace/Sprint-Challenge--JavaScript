@@ -29,14 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+The biggest difference would be that .map() returns a new array while .firEach() doesn't have a return value.
 
 2. What is the difference between a function and a method?
+A method is a specific type of function belonging to an object or its prototype.
 
 3. What is closure?
+Closure is basicallt just a confusing way of explaining scope. Variables can be used in deeper levels of code, but variables can't be pulled to the outer levels without function returns.
 
 4. Describe the four rules of the 'this' keyword.
+In global scope, 'this' will refer to the Window object. When used with a function or method called by a preceding dot, 'this' refers to the object left of the dot. When calling a constructor function, 'this' refers to the new object instance being created. When using .call() or .apply(), 'this' is explicitly stated in the parameter list.
 
 5. Why do we need super() in an extended class?
+Extended classes, by definition, should have the same base constructor. super() takes the work out of rewriting every constructor in extended classes by allowing us to call the parent constructor and pass in arguments.
 
 ## Project Set up
 
